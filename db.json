@@ -1,0 +1,172 @@
+{
+    "user" : [],
+    "posts" : [],
+    "product": [
+        {
+          "id": 1,
+          "name": "Philodendron",
+          "price": 500000,
+          "description": "A wonderful landscape tree that brings tranquility and connects you with nature.",
+          "origin": "Vietnam",
+          "image": "sp3-removebg-preview.png"
+        },
+        {
+          "id": 2,
+          "name": "Snake Plant",
+          "price": 800000,
+          "description": "A tree with delicate cherry blossoms, symbolizing purity and freshness.",
+          "origin": "Japan",
+          "image": "sp1-removebg-preview.png"
+        },
+        {
+          "id": 3,
+          "name": "Rubber Plant",
+          "price": 300000,
+          "description": "A corner of wild grass creating a cool and nature-friendly space.",
+          "origin": "Europe",
+          "image": "sp5-removebg-preview.png"
+        },
+        {
+          "id": 4,
+          "name": "Peperomia",
+          "price": 1200000,
+          "description": "Bonsai creates a compact living art, reflecting patience and dedication.",
+          "origin": "China",
+          "image": "sp4-removebg-preview.png"
+        }
+      ],
+      "treesNew": [
+        {
+          "id": 1,
+          "name": "Butterfly leaves ",
+          "price": 500,
+          "description": "A serene landscape tree that brings tranquility to any space.",
+          "origin": "USA",
+          "image": "sp21.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Elegant Sakura ",
+          "price": 800,
+          "description": "An elegant tree with beautiful Sakura blossoms, symbolizing beauty and renewal.",
+          "origin": "Japan",
+          "image": "sp22.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Majestic Pine Tree",
+          "price": 350,
+          "description": "A majestic pine tree, perfect for creating a forest-like atmosphere.",
+          "origin": "Canada",
+          "image": "sp23.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Graceful Willow ",
+          "price": 600,
+          "description": "A graceful willow tree with cascading branches, creating a peaceful ambiance.",
+          "origin": "England",
+          "image": "sp24.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Colorful Autumn ",
+          "price": 700,
+          "description": "A tree with vibrant autumn foliage, bringing warm and cozy vibes.",
+          "origin": "Germany",
+          "image": "sp30.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Exotic Bonsai Tree",
+          "price": 1200,
+          "description": "An exotic bonsai tree, a symbol of patience and tranquility.",
+          "origin": "China",
+          "image": "sp26.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Gentle Cherry ",
+          "price": 750,
+          "description": "A gentle cherry blossom tree, evoking feelings of serenity and love.",
+          "origin": "Japan",
+          "image": "sp27.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Whimsical Fairy ",
+          "price": 950,
+          "description": "A whimsical tree that adds a touch of magic and fantasy to any setting.",
+          "origin": "Ireland",
+          "image": "sp28.jpg"
+        }
+      ],
+      "treesTop": [
+        {
+          "id": 1,
+          "name": "Royal Oak Tree",
+          "price": 550,
+          "description": "A regal oak tree, symbolizing strength and endurance.",
+          "origin": "England",
+          "image": "sp29.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Tropical Palm Tree",
+          "price": 300,
+          "description": "A tropical palm tree that brings a taste of the tropics to your space.",
+          "origin": "Brazil",
+          "image": "sp31.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Mystical Redwood ",
+          "price": 900,
+          "description": "A mystical redwood tree, towering and awe-inspiring.",
+          "origin": "USA",
+          "image": "sp46.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Tranquil Bamboo ",
+          "price": 400,
+          "description": "A tranquil bamboo grove, perfect for creating a peaceful Zen garden.",
+          "origin": "China",
+          "image": "sp33.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Fragrant Lavender ",
+          "price": 850,
+          "description": "A tree with fragrant lavender blossoms, bringing a soothing aroma.",
+          "origin": "France",
+          "image": "sp34.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Golden Maple Tree",
+          "price": 650,
+          "description": "A tree with golden maple leaves, adding warmth and charm.",
+          "origin": "Canada",
+          "image": "sp44.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Whispering Willow ",
+          "price": 500,
+          "description": "A whispering willow tree with leaves that seem to speak in the breeze.",
+          "origin": "England",
+          "image": "sp35.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Enchanted Olive ",
+          "price": 720,
+          "description": "An enchanted olive tree, symbolizing peace and abundance.",
+          "origin": "Greece",
+          "image": "sp36.jpg"
+        }
+        
+      ]
+      
+}
