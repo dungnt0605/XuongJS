@@ -16,7 +16,7 @@ router.on('/' , () => {
     render('#app' , HomePage);
 });
 
-router.on('/detal/:id' , ({data}) =>{
+router.on('/detail/:id' , ({data}) =>{
     render('#app' ,() =>  DetalProductPage(data.id));
 })
 

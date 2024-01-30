@@ -4,7 +4,7 @@ const SigninPage = () => {
             <section class="SignIn flex">
                 <div id="exit"><a href="/" ><i class="fa-solid fa-xmark"></i></a></div>
                 <section class="form-img">
-                    <h2>Welcome to Greenmind</h2>
+                    <h2 class="mt-5">Welcome to Greenmind</h2>
                 </section>
                 <section class="form">
                     <h2>Sign In</h2>

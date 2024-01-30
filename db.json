@@ -35,7 +35,7 @@
           "image": "sp4-removebg-preview.png"
         }
       ],
-      "treesNew": [
+      "trees": [
         {
           "id": 1,
           "name": "Butterfly leaves ",
@@ -99,11 +99,9 @@
           "description": "A whimsical tree that adds a touch of magic and fantasy to any setting.",
           "origin": "Ireland",
           "image": "sp28.jpg"
-        }
-      ],
-      "treesTop": [
+        },
         {
-          "id": 1,
+          "id": 9,
           "name": "Royal Oak Tree",
           "price": 550,
           "description": "A regal oak tree, symbolizing strength and endurance.",
@@ -111,7 +109,7 @@
           "image": "sp29.jpg"
         },
         {
-          "id": 2,
+          "id": 10,
           "name": "Tropical Palm Tree",
           "price": 300,
           "description": "A tropical palm tree that brings a taste of the tropics to your space.",
@@ -119,7 +117,7 @@
           "image": "sp31.jpg"
         },
         {
-          "id": 3,
+          "id": 11,
           "name": "Mystical Redwood ",
           "price": 900,
           "description": "A mystical redwood tree, towering and awe-inspiring.",
@@ -127,7 +125,7 @@
           "image": "sp46.jpg"
         },
         {
-          "id": 4,
+          "id": 12,
           "name": "Tranquil Bamboo ",
           "price": 400,
           "description": "A tranquil bamboo grove, perfect for creating a peaceful Zen garden.",
@@ -135,7 +133,7 @@
           "image": "sp33.jpg"
         },
         {
-          "id": 5,
+          "id": 13,
           "name": "Fragrant Lavender ",
           "price": 850,
           "description": "A tree with fragrant lavender blossoms, bringing a soothing aroma.",
@@ -143,7 +141,7 @@
           "image": "sp34.jpg"
         },
         {
-          "id": 6,
+          "id": 14,
           "name": "Golden Maple Tree",
           "price": 650,
           "description": "A tree with golden maple leaves, adding warmth and charm.",
@@ -151,7 +149,7 @@
           "image": "sp44.jpg"
         },
         {
-          "id": 7,
+          "id": 15,
           "name": "Whispering Willow ",
           "price": 500,
           "description": "A whispering willow tree with leaves that seem to speak in the breeze.",
@@ -159,14 +157,14 @@
           "image": "sp35.jpg"
         },
         {
-          "id": 8,
+          "id": 16,
           "name": "Enchanted Olive ",
           "price": 720,
           "description": "An enchanted olive tree, symbolizing peace and abundance.",
           "origin": "Greece",
           "image": "sp36.jpg"
         }
-        
       ]
+      
       
 }

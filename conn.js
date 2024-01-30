@@ -15,26 +15,9 @@ async function fetchProduct() {
     return [];
   }
 }
-async function fetchTreeNew() {
+async function fetchTree() {
   try {
-    const response = await fetch(`http://localhost:3000/treesNew`);
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    const data = await response.json();
-    
-    if (Array.isArray(data)) {
-      return data;
-    } else {
-      return [];
-    }
-  } catch (error) {
-    return [];
-  }
-}
-async function fetchTreeTop() {
-  try {
-    const response = await fetch(`http://localhost:3000/treesTop`);
+    const response = await fetch(`http://localhost:3000/trees`);
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
@@ -50,7 +33,7 @@ async function fetchTreeTop() {
   }
 }
 
+
 const dataArrayProduct = await fetchProduct();
-const dataArrayTressNew = await fetchTreeNew();
-const dataArrayTressTop = await fetchTreeTop();
-export {dataArrayProduct, dataArrayTressNew , dataArrayTressTop};
+const dataArrayTress = await fetchTree();
+export {dataArrayProduct, dataArrayTress};

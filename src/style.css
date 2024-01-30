@@ -24,6 +24,7 @@ a{
 }
 :root {
     --blue: #C1DCDC;
+    --blue2 : #078a8a;
 }
 
 .flex {
@@ -323,7 +324,18 @@ h1 {
 #New .new-item:hover button {
     background-color: #fff;
 }
-
+/* =======================detail=========================== */
+#detail #detailSize a{
+    font-size: 13px;
+    color: var(--blue2);
+}
+#detail #detailSize a:hover{
+    background-color: rgba(34, 32, 32, 0.2);
+    border: 2px solid  var(--blue2);
+}
+#detail #detailSize a:active{
+    transform: scale(0.95);
+}
 /* ======================footer=============================== */
 footer {
     display: grid;
