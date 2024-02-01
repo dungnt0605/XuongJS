@@ -11,8 +11,8 @@ const HeaderComponent = () => {
             </nav>
             <nav>
                 <ul class="menu2 flex">
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a></li>
-                    <li><a href="/signin"><i class="fa-regular fa-circle-user" style="color: #000000;"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #000000; font-size:20px ;"></i></a></li>
+                    <li><a href="/signup" class="text-dark">Đăng ký</a> /<a href="/signin" class="text-dark">Đăng nhập</a></li>
                 </ul>
             </nav>
             

@@ -4,6 +4,7 @@ import ProductPage from "./page/product";
 import SigninPage from "./page/signin";
 import SignupPage from "./page/signup";
 import HomePage from "./page/home";
+import HandelSignUp from "./component/handle/signup";
 import DetalProductPage from "./page/detalProduct";
 
 const render = (container , Components) =>{
@@ -12,6 +13,13 @@ const render = (container , Components) =>{
 
 const router = new Navigo('/' , {linksSelector: 'a'});
 
+// router.on( "/" ,() => render(app, HomePage), {
+//     after() {
+//         NewTreesComponent();
+//         TopTreesComponent();
+//         TrendProductComponent();
+//     },
+// });
 router.on('/' , () => {
     render('#app' , HomePage);
 });
@@ -28,8 +36,11 @@ router.on('/signin' , () => {
     render('#app' , SigninPage)
 })
 
-router.on('/signup' , () => {
-    render('#app' , SignupPage)
+router.on('/signup' , () => { render('#app' , SignupPage) ,{
+    after(){
+        HandelSignUp();
+    }
+}
 });
 
 router.resolve();

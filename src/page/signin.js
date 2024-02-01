@@ -13,7 +13,7 @@ const SigninPage = () => {
                         <input type="email" required>
                         <label for="">PassWord</label>
                         <input type="password" name="" id="">
-                        <button type="submit">Sign in</button>
+                        <button type="submit" id="signin">Sign in</button>
                         <label for="" id="label">Login with social account ? </label>
                         <div class="icon flex">
                             <i class="fa-brands fa-google fa-2x" style="color: #000000;"></i>
