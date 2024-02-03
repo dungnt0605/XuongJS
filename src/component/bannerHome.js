@@ -1,12 +1,17 @@
 const BannerComponent = () => {
     return `
     <section class="banner">
-        <p>Discunt 20%</p>
-        <h1>Species of plants</h1>
-        <p>Easy to care for and natural beauty, the cactus will be your best friend in creating green and vibrant
-            spaces. Own a cactus now and discover the unique style it brings!</p>
-        <a href="#"> <button>Shop now</button></a>
-    </section>
+            <h1>Buy your dream plants</h1>
+            <div class="banner-text flex">
+                <p><span>50+</span> <br>Plant Species</p>
+                <p id="banner-text"><span>100+</span> <br>Customers</p>
+            </div>
+            <div class="search">
+                <input type="text" class="search__input" placeholder="What are you looking for?">
+                <button class="search__button"><a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                </button>
+            </div>
+        </section>
     `;
 }
 export default BannerComponent;

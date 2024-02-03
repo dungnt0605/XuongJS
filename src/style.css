@@ -129,36 +129,58 @@ header {
 }
 
 /* ================Banner===================== */
-.banner {
-    width: 100%;
+.banner{
     height: 500px;
-    padding: 5%;
+    padding: 48px;
+    margin: 0 5% ;
     border-radius: 24px;
-    background: url(./imageT2/Banner1.png) no-repeat, var(--blue);
-    background-position: 90% 100%, 90% 100%;
+    background: url(./imageT2/banner2.png) no-repeat, 
+    url(./imageT2/banner1.png) no-repeat
+    ,var(--blue);
+    background-position: 90% 100%,90% 100% ;
 }
-
-.banner p {
-    width: 40%;
-    padding: 20px 0;
-}
-
-h1 {
+.banner h1{
     font-size: 64px;
     font-weight: 800;
     font-family: 'Poppin';
-    /* width: 500px; */
+    width: 500px;
 }
-
-.banner button {
-    width: 12%;
-    height: 40px;
-    background-color: #ffff;
-    border: none;
+#banner-text{
+    border-left: 1px solid #000;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.banner-text span{
+    font-size: 32px;
+}
+.search{
+    position: relative;
+}
+.search input{
+    margin: 48px 0;
+    width: 40%;
+    padding: 1.3rem;
     border-radius: 12px;
-    margin: 30px 0;
+    border: none;
 }
-
+.search input::placeholder{
+    padding-left: 20px;
+}
+.search__button{
+    background-color: var(--blue);
+    border-radius: 12px;
+    border: none;
+    position: absolute;
+    width: 48px;
+    height: 45px;
+    left: 35%;
+    top: 36%;
+    cursor: pointer;
+}
+.search input:focus{
+    box-shadow: 0px 0px 30px 4px rgba(0,0,0, 0.3);
+    
+}
 /* ================product================= */
 #product {
     padding: 0 5%;

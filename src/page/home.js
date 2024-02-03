@@ -31,7 +31,7 @@ const HomePage = () => {
             <!-- --------------------New--------------------------- -->
             <section id="New">
                 <h2>NEW PRODUCT</h2>
-                <section class="New-content ">
+                <section class="New-content " id="productNew">
                     ${NewTreesComponent()}
                 </section>
                 <!-- ---------------------------Top sale------------------------------------- -->

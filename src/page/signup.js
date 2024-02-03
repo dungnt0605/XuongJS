@@ -1,5 +1,7 @@
+
 const SignupPage = () => {
     return `
+    
         <main >
             <section class="SignIn flex">
                 <div id="exit"><a href="/" ><i class="fa-solid fa-xmark"></i></a></div>
@@ -10,14 +12,14 @@ const SignupPage = () => {
                     <h2>Sign Up</h2>
                     <form action="">
                         <label for="">Username</label>
-                        <input type="text" id="username" required>
+                        <input type="text" id="username" >
                         <label for="">Email</label>
-                        <input type="email" id="email" required>
+                        <input type="email" id="email" >
                         <label for="">PassWord</label>
                         <input type="password" name="" id="pass">
                         <label for="">RepassWord</label>
                         <input type="password" name="" id="repass">
-                        <button type="button" id="signup">Sign Up</button>
+                        <button type="button" id="signup" >Sign Up</button>
                         
                         <h6 class="text-center">Do not have an account ?<a class="ms-3" href="/signin" >Sign In</a></h6>
                     </form>

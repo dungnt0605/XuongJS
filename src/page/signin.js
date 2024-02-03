@@ -10,10 +10,10 @@ const SigninPage = () => {
                     <h2>Sign In</h2>
                     <form action="">
                         <label for="">Email</label>
-                        <input type="email" required>
+                        <input type="email" id="email" >
                         <label for="">PassWord</label>
-                        <input type="password" name="" id="">
-                        <button type="submit" id="signin">Sign in</button>
+                        <input type="password" name="" id="pass">
+                        <button type="button" id="signin">Sign in</button>
                         <label for="" id="label">Login with social account ? </label>
                         <div class="icon flex">
                             <i class="fa-brands fa-google fa-2x" style="color: #000000;"></i>

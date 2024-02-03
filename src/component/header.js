@@ -1,3 +1,7 @@
+// import { checkLoginStatus } from "../validation/auth";
+
+import { checkLoginStatus } from "../validation/auth";
+
 const HeaderComponent = () => {
     return `
     <header class="flex between">
@@ -9,12 +13,13 @@ const HeaderComponent = () => {
                     <li><a href="/detal">Contacts</a></li>
                 </ul>
             </nav>
-            <nav>
-                <ul class="menu2 flex">
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #000000; font-size:20px ;"></i></a></li>
-                    <li><a href="/signup" class="text-dark">Đăng ký</a> /<a href="/signin" class="text-dark">Đăng nhập</a></li>
+                
+            <div class="flex ">
+                <div class="mt-2 me-4"><a href="#" ><i class="fa-solid fa-cart-shopping" style="color: #000000; font-size:20px;"></i></a></div>
+                <ul class=" navbar-nav  mt-2 " >
+                    <li class="nav-item dropdown">${checkLoginStatus()}</li>
                 </ul>
-            </nav>
+            </div>
             
                 <ul class="menu-small ">
                     <li class="menu-small-li"><i class="fas fa-bars" style="color: #000000;"></i>
