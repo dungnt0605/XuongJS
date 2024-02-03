@@ -33,10 +33,11 @@ const HomePage = () => {
                 <h2>NEW PRODUCT</h2>
                 <section class="New-content " id="productNew">
                     ${NewTreesComponent()}
+
                 </section>
                 <!-- ---------------------------Top sale------------------------------------- -->
                 <h2>TOP SALE</h2>
-                <section class="New-content flex evenly">
+                <section class="New-content flex evenly" id="productTop">
                     ${TopTreesComponent()}
                 </section>
 

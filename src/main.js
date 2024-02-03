@@ -5,7 +5,6 @@ import SignupPage from "./page/signup";
 import HomePage from "./page/home";
 import HandelSignUp from "./component/handle/signup";
 import DetalProductPage from "./page/detalProduct";
-import demo from "./component/product/demo";
 import { render, router } from "./utils";
 import HendelSignIn from './component/handle/signin';
 import { logout } from './validation/auth';
@@ -13,7 +12,6 @@ import { logout } from './validation/auth';
 
 router.on( "/" ,() => render("#app", HomePage), {
     after() {
-        demo();
         NewTreesComponent();
         TopTreesComponent();
         TrendProductComponent();
