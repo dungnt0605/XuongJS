@@ -1,8 +1,6 @@
 import BannerComponent from "../component/bannerHome";
 import FoooterComponent from "../component/footer";
 import HeaderComponent from "../component/header";
-import NewTreesComponent from "../component/product/newTree";
-import TopTreesComponent from "../component/product/topTree";
 import TrendProductComponent from "../component/product/trendProduct";
 
 const HomePage = () => {
@@ -32,13 +30,12 @@ const HomePage = () => {
             <section id="New">
                 <h2>NEW PRODUCT</h2>
                 <section class="New-content " id="productNew">
-                    ${NewTreesComponent()}
 
                 </section>
                 <!-- ---------------------------Top sale------------------------------------- -->
                 <h2>TOP SALE</h2>
                 <section class="New-content flex evenly" id="productTop">
-                    ${TopTreesComponent()}
+
                 </section>
 
             </section>

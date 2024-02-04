@@ -1,35 +1,16 @@
 {
   "user": [
     {
-      "username": "dung",
-      "email": "dungntph31678@fpt.edu.vn",
+      "username": "fptsoftware",
+      "email": "sdvndung051230@gmail.com",
       "pass": "123",
+      "role": "member",
+      "address": "",
+      "phone": "",
       "id": 1
-    },
-    {
-      "username": "long123",
-      "email": "h016665908862@gmail.com",
-      "pass": "123",
-      "id": 2
     }
   ],
-  "posts": [
-    {
-      "email": "dungntph31678@fpt.edu.vn",
-      "pass": "123",
-      "id": 1
-    },
-    {
-      "email": "dungntph31678@fpt.edu.vn",
-      "pass": "123",
-      "id": 2
-    },
-    {
-      "email": "dungntph31678@fpt.edu.vn",
-      "pass": "123",
-      "id": 3
-    }
-  ],
+  "posts": [],
   "product": [
     {
       "id": 1,

@@ -4,7 +4,7 @@ const TrendProductComponent = () => {
   return `
   
     ${dataArrayProduct.map((e) => { 
-        return `
+        return /*html*/ `
     <article class="product-item flex">
         <img src="./imageT2/${e.image}" alt="sp1">
         <div class="product-content">

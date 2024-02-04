@@ -1,12 +1,13 @@
 import api from '../../api/index.js';
 
 const NewTreesComponent = async () => {
+    const productNewElement = document.getElementById("productNew");
     let contentHTML = '' ;
     try {
         const {data} = await api.get("/trees");
         for(let i = 0 ; i < 8 ; i++){
             let e = data[i];
-            contentHTML += `
+            contentHTML += /*html*/`
             <article class="new-item" onclick="return window.location.href='/detail/${e.id}'">
                     <img src="./imageT2/${e.image}" alt="bnm">
                     <div class="new-describe">
@@ -28,8 +29,7 @@ const NewTreesComponent = async () => {
             </article>
             `
         }
-        console.log(contentHTML);
-        return contentHTML ;
+        productNewElement.innerHTML =  contentHTML ;
     } catch (error) {
         console.log(error);
     }

@@ -8,6 +8,9 @@ import DetalProductPage from "./page/detalProduct";
 import { render, router } from "./utils";
 import HendelSignIn from './component/handle/signin';
 import { logout } from './validation/auth';
+import NewTreesComponent from './component/product/newTree';
+import TopTreesComponent from './component/product/topTree';
+import TrendProductComponent from './component/product/trendProduct';
 
 
 router.on( "/" ,() => render("#app", HomePage), {

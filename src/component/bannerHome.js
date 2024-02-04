@@ -1,5 +1,5 @@
 const BannerComponent = () => {
-    return `
+    return /*html*/`
     <section class="banner">
             <h1>Buy your dream plants</h1>
             <div class="banner-text flex">
