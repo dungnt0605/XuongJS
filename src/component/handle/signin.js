@@ -25,7 +25,7 @@ async function submitSignIn() {
       if (data1) {
         sessionStorage.setItem("user", JSON.stringify(data1));
         const comfirmValue = confirm(
-          `Đăng nhập thành công , bạn có muốn chuyển sang trang home k  ! , ${data.email}`
+          `Đăng nhập thành công , bạn có muốn chuyển sang trang home k  ! , ${data1.email}`
         );
         if (comfirmValue) {
           router.navigate("/");

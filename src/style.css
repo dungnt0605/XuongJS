@@ -10,21 +10,23 @@
 }
 
 * {
-   
+
     box-sizing: border-box;
     list-style: none;
     transition: 0.5s;
     font-family: 'Poppins', sans-serif;
     color: rgba(30, 30, 30);
-    
+
 }
-a{
+
+a {
     text-decoration: none;
 
 }
+
 :root {
     --blue: #C1DCDC;
-    --blue2 : #078a8a;
+    --blue2: #078a8a;
 }
 
 .flex {
@@ -129,44 +131,50 @@ header {
 }
 
 /* ================Banner===================== */
-.banner{
+.banner {
     height: 500px;
     padding: 48px;
-    margin: 0 5% ;
+    margin: 0 5%;
     border-radius: 24px;
-    background: url(./imageT2/banner2.png) no-repeat, 
-    url(./imageT2/banner1.png) no-repeat
-    ,var(--blue);
-    background-position: 90% 100%,90% 100% ;
+    background: url(./imageT2/banner2.png) no-repeat,
+        url(./imageT2/banner1.png) no-repeat, var(--blue);
+    background-position: 90% 100%, 90% 100%;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 64px;
     font-weight: 800;
     font-family: 'Poppin';
     width: 500px;
 }
-#banner-text{
+
+#banner-text {
     border-left: 1px solid #000;
     margin: 0 20px;
     padding: 0 20px;
 }
-.banner-text span{
+
+.banner-text span {
     font-size: 32px;
 }
-.search{
+
+.search {
     position: relative;
 }
-.search input{
+
+.search input {
     margin: 48px 0;
     width: 40%;
     padding: 1.3rem;
     border-radius: 12px;
     border: none;
 }
-.search input::placeholder{
+
+.search input::placeholder {
     padding-left: 20px;
 }
-.search__button{
+
+.search__button {
     background-color: var(--blue);
     border-radius: 12px;
     border: none;
@@ -177,10 +185,12 @@ header {
     top: 36%;
     cursor: pointer;
 }
-.search input:focus{
-    box-shadow: 0px 0px 30px 4px rgba(0,0,0, 0.3);
-    
+
+.search input:focus {
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.3);
+
 }
+
 /* ================product================= */
 #product {
     padding: 0 5%;
@@ -346,18 +356,22 @@ header {
 #New .new-item:hover button {
     background-color: #fff;
 }
+
 /* =======================detail=========================== */
-#detail #detailSize a{
+#detail #detailSize a {
     font-size: 13px;
     color: var(--blue2);
 }
-#detail #detailSize a:hover{
+
+#detail #detailSize a:hover {
     background-color: rgba(34, 32, 32, 0.2);
-    border: 2px solid  var(--blue2);
+    border: 2px solid var(--blue2);
 }
-#detail #detailSize a:active{
+
+#detail #detailSize a:active {
     transform: scale(0.95);
 }
+
 /* ======================footer=============================== */
 footer {
     display: grid;
@@ -365,9 +379,11 @@ footer {
     padding: 50px 5%;
     background-color: var(--blue);
 }
-footer #logo{
+
+footer #logo {
     margin: 5% 10px;
 }
+
 .contact p {
     width: 80%;
     margin: 10px 0;
@@ -393,12 +409,98 @@ footer #logo{
 .service {
     width: 35%;
 }
-.service-item a{
-    color: #000 ;
+
+.service-item a {
+    color: #000;
 }
+
 .service-item {
     margin-left: 10%;
     line-height: 2.8;
+}
+
+/* =============================ADIMIN================================= */
+#formUpdateAdmin{
+    height: 100%;
+}
+#order_form {
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.36);
+    padding: 50px;
+    background: transparent;
+    margin: 0 auto;
+    width: 40%;
+}
+
+#order_form h4 {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+}
+
+#order_form .card {
+    background: transparent;
+    border: none;
+}
+
+#order_form input,
+    #order_form textarea{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+#order_form input:focus {
+    background-color: rgba(241, 237, 237, 0.945);
+}
+#order_form input[ type="file"]{
+    background-color: transparent;
+    border: none;
+}
+
+#order_form input[ type="reset"],
+#orderCustomBtn button {
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 15px;
+
+}
+
+#orderCustomBtn button {
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 15px;
+    border: none;
+    animation: btnOrder 2s linear infinite alternate;
+}
+
+@keyframes btnOrder {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(0.95);
+    }
+}
+
+#order_form input[ type="reset"]:hover,
+#orderCustomBtn button:hover {
+    background-color: #2B3B70;
+    color: #fff;
+
+}
+
+#orderText h1 {
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    margin: 5% 0;
+    text-shadow: 2px 2px 1px rgba(250, 250, 250, 0.568);
+}
+
+#orderText p {
+    text-shadow: 1px 1px 1px rgba(22, 22, 22, 0.568);
 }
 
 /* ============responsive ==================*/
@@ -617,49 +719,56 @@ footer #logo{
 }
 
 /* ====================================End Home=================================== */
-main{
-    background-image: linear-gradient( to right top,rgb(245, 235, 133),#d3f8ef ,#fff );
+main {
+    background-image: linear-gradient(to right top, rgb(245, 235, 133), #d3f8ef, #fff);
     height: 100vh;
     padding: 60px 0;
 }
-#exit{
+
+#exit {
     position: absolute;
     top: 5%;
     right: 5%;
     font-size: 20px;
 }
-.SignIn{
+
+.SignIn {
     position: relative;
     margin: auto;
     width: 60vw;
     border-radius: 30px;
-    box-shadow: 4px 4px 36px rgba(0,0,0, 0.2);
+    box-shadow: 4px 4px 36px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
-.form{
+
+.form {
     width: 30vw;
     height: 80vh;
     background-color: #fff;
 }
-form{ 
 
-    margin: 0 10% ;
+form {
+
+    margin: 0 10%;
     display: flex;
     justify-content: center;
 
     flex-direction: column;
 }
-.form label{
+
+.form label {
     text-align: left;
-    
+
 }
-.form input{
+
+.form input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 10px;
 }
-.form button{
+
+.form button {
     padding: 10px;
     margin: 10px 0;
     background-color: var(--blue);
@@ -667,21 +776,26 @@ form{
     border-radius: 10px;
     width: 100%;
 }
-.form-img{
+
+.form-img {
     height: 80vh;
     background: url(./imageT2/DN3.jpg) no-repeat;
     background-size: cover;
     width: 30vw;
 }
+
 .icon {
-    
+
     text-align: center;
     margin: 20px 30%;
 }
-.icon i{
+
+.icon i {
     padding: 0 7%;
 }
-.form #label{
+
+.form #label {
     margin: 0 15%;
 }
+
 /* ==============================End Signin========================================= */

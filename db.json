@@ -4,10 +4,28 @@
       "username": "fptsoftware",
       "email": "sdvndung051230@gmail.com",
       "pass": "123",
+      "role": "admin",
+      "address": "",
+      "phone": "",
+      "id": 1
+    },
+    {
+      "username": "dung",
+      "email": "sdvn@gmail.com",
+      "pass": "123",
       "role": "member",
       "address": "",
       "phone": "",
       "id": 1
+    },
+    {
+      "username": "dung",
+      "email": "dung@gmail.com",
+      "pass": "12345678",
+      "role": "member",
+      "address": "",
+      "phone": "",
+      "id": 2
     }
   ],
   "posts": [],
@@ -167,12 +185,12 @@
       "image": "sp35.jpg"
     },
     {
-      "id": 16,
-      "name": "Enchanted Olive ",
-      "price": 720,
-      "description": "An enchanted olive tree, symbolizing peace and abundance.",
-      "origin": "Greece",
-      "image": "sp36.jpg"
+      "name": "hehe",
+      "image": "sp44.jpg",
+      "price": "567",
+      "origin": "cs",
+      "description": "cd",
+      "id": 16
     }
   ]
 }

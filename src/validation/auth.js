@@ -27,10 +27,10 @@ export function checkLoginStatus ()  {
       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       ${user.username}
           </a>      
-      <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Quản lý tài khoản</a></li>
-      <li><a class="dropdown-item" href="/logout">Đăng Xuất</a></li>
-    </ul>
+        <ul class="dropdown-menu">
+        ${user.role === "admin" ? "<li><a class='dropdown-item' href='/admin'>Quản lý</a></li>" : ""} 
+          <li><a class="dropdown-item" href="/logout">Đăng Xuất</a></li>
+        </ul>
     `;
       // console.log(user.username);
     } else {
